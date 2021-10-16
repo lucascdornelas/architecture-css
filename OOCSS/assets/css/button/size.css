@@ -1,0 +1,16 @@
+.my-btn-sm {
+  padding: 0.5rem 0.75rem;
+}
+
+.my-btn-md {
+  padding: 0.75rem 1rem;
+}
+
+.my-btn-lg {
+  padding: 1.25rem 1.5rem;
+}
+
+.my-btn-block {
+  display: block;
+  width: 100%;
+}

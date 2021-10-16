@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture CSS - SMACSS</title>
+    <link rel="stylesheet" href="assets/css/base/reset.css">
+    <link rel="stylesheet" href="assets/css/layout/text.css">
+    <link rel="stylesheet" href="assets/css/module/button.css">
+    <!-- <link rel="stylesheet" href="assets/css/theme/green.css"> -->
+    <link rel="stylesheet" href="assets/css/theme/black.css">
+    <link rel="stylesheet" href="assets/css/state/is.css">
+</head>
+<body>
+    <h1 class="l-textUpper l-textCenter">Architecture CSS - SMACSS</h1>
+    <div>
+        <button class="my-btn">My btn</button>
+        <button class="my-btn is-disabled">My btn - disabled</button>
+    </div>
+</body>
+</html>
+
+<!-- categorias básicas que devemos seguir:
+    - base: todo código css básico para a aplicação, reset css, normalize..
+    - layout: classes que não são semanticamente importante
+    - module: todo css da aplicação, button, modal, card...
+    - state: maneiras que o elemento pode ou não estar na página...
+    - theme: tema da aplicação -->
